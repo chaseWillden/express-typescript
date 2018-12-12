@@ -1,0 +1,20 @@
+{
+  "name": "express-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/chaseWillden/express-typescript",
+  "author": "Chase Willden <chase.willden@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build --target node test/index.ts --out-dir dist",
+    "test": "node ./dist/index.js",
+    "build:test": "yarn build && yarn test"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "parcel-bundler": "^1.10.3",
+    "reflect-metadata": "^0.1.12",
+    "tslint": "^5.11.0",
+    "typescript": "^3.2.2"
+  }
+}

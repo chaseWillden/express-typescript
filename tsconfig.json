@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "jsx": "react",
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
